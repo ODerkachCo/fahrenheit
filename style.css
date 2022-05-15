@@ -1,5 +1,5 @@
 * {
-	background: green;
+	background: #006400;
 }
 
 #demo {
@@ -63,12 +63,12 @@
 	background: #000;
 	opacity: .7;
 	border-color: #000;
-	color: white;
+	color: #fff;
 	border-radius: 50%;
 }
 [type=button]:hover {
-	background: green;
+	background: #006400;
 	cursor: pointer;
-	border-color: green;
+	border-color: #006400;
 	outline: none;
 }
