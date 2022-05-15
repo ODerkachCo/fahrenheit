@@ -1,13 +1,13 @@
-var output = document.getElementById('demo');
-var textInput = document.querySelector('[type="text"]');
-var farBtn = document.querySelector('[type="button"]');
+var output = document.getElementById('demo'),
+	textInput = document.querySelector('[type="text"]'),
+	farBtn = document.querySelector('[type="button"]');
 
 
 farBtn.addEventListener('click', getCelsius);
 function getCelsius() {
 	var celsius = parseInt(textInput.value);
 	if(!celsius) {
-		alert('Введите число!');
+		alert('Введіть число!');
 	} else if(celsius) {
 		output.innerText = '';
 		var fahrenheit = celsius * 1.8 + 32;
